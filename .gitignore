@@ -1,0 +1,10 @@
+# Ignore everything inside dataset
+dataset/**
+tracking_outputs/**
+to_track/**
+
+# But keep the folder structure
+!dataset/.gitkeep
+
+!tracking_outputs/.gitkeep
+!to_track/.gitkeep
