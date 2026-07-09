@@ -6,15 +6,15 @@ from ultralytics import YOLO
 
 # ---------- CONFIG ----------
 model_path = "best_weights/best.pt"
-video_path = "videos/C0201.MP4"
+video_path = "dataset/proprio_ata/raw/C0201.MP4"
 
 output_dir = "tracking_outputs"
-output_video_name = "proprio_ata_track_test.mp4"
+output_video_name = "proprio_ata_track_test2.mp4"
 output_csv_name = "proprio_ata_track_test.csv"
 
-imgsz = 1504 #Check the model training image size
+imgsz = 2016 #Check the model training image size
 conf = 0.25
-pixel_to_cm = 0.02  # example: 25 px = 0.5 cm
+pixel_to_cm = 0.07  # example: 25 px = 0.5 cm
 # ----------------------------
 
 os.makedirs(output_dir, exist_ok=True)
