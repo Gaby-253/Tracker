@@ -5,7 +5,7 @@ import pandas as pd
 from ultralytics import YOLO
 
 # ---------- CONFIG ----------
-model_path = "runs/segment/runs/segment/ata_ant_seg_train-8/weights/best.pt"
+model_path = "best_weights/best.pt"
 video_path = "videos/C0201.MP4"
 
 output_dir = "tracking_outputs"

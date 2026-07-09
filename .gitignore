@@ -2,9 +2,11 @@
 dataset/**
 tracking_outputs/**
 to_track/**
+run/**
 
 # But keep the folder structure
 !dataset/.gitkeep
 
 !tracking_outputs/.gitkeep
 !to_track/.gitkeep
+!run/.gitkeep
